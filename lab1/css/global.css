@@ -1,0 +1,63 @@
+/*** variables ***/
+
+:root {
+    --color-dark: #111b47;
+    --color-font-dark: #091133;
+
+    --font-size-md: 1rem;
+    --font-size-sm: 0.875rem;
+    --font-size-xs: 0.75rem;
+}
+
+
+
+
+body {
+    background: #fff;
+    font-family: 'Inter', 'Mulish', 'Playfair Display', sans-serif;
+    color: #505f98;
+}
+
+
+.left,
+.right {
+    float: left;
+    width: 20%;
+    /* Ширина 20%, за умовчанням */
+}
+
+.main {
+    float: left;
+    width: 60%;
+    /* Ширина 60%, за умовчанням */
+}
+
+/* Використовуйте медіа-запит, щоб додати точку переходу на 800px: */
+@media screen and (max-width: 800px) {
+
+    .left,
+    .main,
+    .right {
+        width: 100%;
+        /* Ширина складає 100%, коли область перегляду складає 800 пікселів або менше */
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #505f98;
+}
+
+button {
+    border: 0;
+}
+
+.container {
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
+
+li {
+    display: block;
+}
