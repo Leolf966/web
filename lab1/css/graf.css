@@ -1,0 +1,50 @@
+.prof {
+    background-image: url(../img/sec_1.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background: url(../img/sec_1.svg) no-repeat right 81%;
+}
+
+.graf__container {
+    padding-top: 250px;
+}
+
+.graf__inner {
+    padding-top: 301px;
+    padding-bottom: 203px;
+}
+
+.graf__heading {
+    width: 380px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000;
+    font-family: 'Playfair Display';
+    margin-left: 38px;
+}
+
+.graf__paragraph {
+    width: 450px;
+    font-size: 17px;
+    margin-bottom: 16px;
+    line-height: 30px;
+    font-family: 'Mulish';
+    font-weight: 300;
+    color: #7d7987;
+    margin-left: 38px;
+}
+
+.graf__bottom {
+    margin-top: 39px;
+}
+
+.graf__button {
+    width: 164px;
+    height: 48px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 8px;
+    background: #FB8F1D;
+    margin-left: 38px;
+}
