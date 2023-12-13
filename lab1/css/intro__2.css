@@ -1,12 +1,12 @@
+
 .title_space {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
 .title__text {
-    margin-top: 82px;
+    margin-top: 102px;
 
 }
 .title_text {
@@ -16,6 +16,10 @@
     font-weight: 600;
     line-height: 60px;
     margin-right: 60px;
+}
+
+.title__text:hover {
+    transform: scale(1.1);
 }
 
 .pictures__intro {
@@ -33,7 +37,7 @@
 
 .container_1 {
     margin-left: 40px;
-    
+    margin-top: -90px;
 }
 
 .paragraph_title {
