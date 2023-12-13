@@ -1,7 +1,7 @@
 .intro {
     background: #F8F8F8;
-    width: 1600px;
     height: 774px;
+    margin: 0 auto;
 }
 
 .title {
@@ -14,7 +14,20 @@
     display: flex;
     text-align: center;
     padding-top: 79px;
-    margin-left: 38px;
+    margin-left: 40px;
+}
+
+.titlee {
+    width: 481px;
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    display: flex;
+    text-align: center;
+    padding-top: 79px;
+    margin-left: 150px;
 }
 
 .intro__image {
@@ -22,6 +35,10 @@
     height: 24px;
     padding-top: 145px;
     margin-right: 12px;
+}
+
+.marg {
+    margin-left: 150px;
 }
 
 .paragraph_heading {
