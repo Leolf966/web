@@ -11,7 +11,7 @@
 .header__nav-item {
     font-size: 14px;
     margin-right: 35px;
-    padding-top: 57px;
+    padding-top: 40px;
     font-family: 'Inter';
 }
 
@@ -21,8 +21,12 @@
 
 .heaader__nav-link {
     color: #B8BECD;
+    transition: 0.35s;
 }
 
+.heaader__nav-link:hover {
+    color: blue;
+}
 
 .header__container {
     display: flex;
@@ -33,6 +37,7 @@
 
 .header__title {
     padding-top: 10px;
+    padding-right: 100px;
 }
 
 
@@ -66,22 +71,54 @@
     padding-bottom: 8px;
 }
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 969px) {
+    .baba {
+        background-image: none;
+    }
+
     .header {
+        width: 100%;
         position: fixed;
+        margin: 0px;
         left: 0;
         right: 0;
-        padding: 20px;
-        background-color: white;
+        padding:20px;
+        background-color: #fff;
         z-index: 10;
     }
 
-    .header__log {
-        display: none;
+    .header_menu{
+        display: block;
     }
 
-    .header__reg {
-        display: none;
+    .header__nav {
+        background: #e7ecff;
+        position: fixed;
+        top:72px;
+        left:0;
+        right: 0;
+        bottom: 0;
+        margin-top: 0;
+        clip-path: circle(0 at top left);
+        transition: clip-path 0.9s ease-in;
     }
+
+    .header__nav ul {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .header__nav-item {
+        flex: 1;
+        padding: 5vh;
+        margin-right:0;
+    }
+
+    .header__nav a {
+        font-weight: 500;
+        display: block;
+        font-size: 2em;
+    } 
+
 }
 
