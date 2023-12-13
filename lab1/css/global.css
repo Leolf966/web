@@ -16,32 +16,42 @@ body {
     background: #fff;
     font-family: 'Inter', 'Mulish', 'Playfair Display', sans-serif;
     color: #505f98;
+    margin: 0;
+    padding: 0;
 }
 
+.container {
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
+
+
+@media only screen and (min-width: 2560px) {
+    .graf__heading {
+        font-size: 36px; 
+    }
+}
+
+
+
+.graf__heading {
+    font-size: 28px;
+}
 
 .left,
 .right {
     float: left;
     width: 20%;
-    /* Ширина 20%, за умовчанням */
+
 }
 
 .main {
     float: left;
     width: 60%;
-    /* Ширина 60%, за умовчанням */
+
 }
 
-/* Використовуйте медіа-запит, щоб додати точку переходу на 800px: */
-@media screen and (max-width: 800px) {
-
-    .left,
-    .main,
-    .right {
-        width: 100%;
-        /* Ширина складає 100%, коли область перегляду складає 800 пікселів або менше */
-    }
-}
 
 a {
     text-decoration: none;
@@ -61,3 +71,4 @@ button {
 li {
     display: block;
 }
+
