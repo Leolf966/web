@@ -1,17 +1,18 @@
-.prof {
+.baba {
     background-image: url(../img/sec_1.svg);
     background-repeat: no-repeat;
     background-position: right;
     background: url(../img/sec_1.svg) no-repeat right 81%;
+    margin: 0 auto;
 }
 
-.graf__container {
-    padding-top: 250px;
-}
+
+
+
 
 .graf__inner {
     padding-top: 301px;
-    padding-bottom: 203px;
+    padding-bottom: 53px;
 }
 
 .graf__heading {
